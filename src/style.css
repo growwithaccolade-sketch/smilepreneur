@@ -28,3 +28,8 @@
 @keyframes portrait-arrive{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
 @keyframes signature-arrive{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
 @media(prefers-reduced-motion:reduce){.conversion-hero .herovisual,.hero-signature{animation:none}.conversion-hero .btn:hover svg,.hero-photo-link:hover svg{transform:none}}
+
+/* Stronger hero contrast */
+.conversion-hero{background:#edccb7}.conversion-hero .herotext h1{font-weight:800;color:#24211d}.conversion-hero .herotext h1 em{font-weight:800;color:#773b29}.conversion-hero .eyebrow{color:#6e3828;font-weight:700;letter-spacing:1.6px}.conversion-hero .herotext p{color:#514237}.conversion-hero .btn{background:#703623!important;border-color:#703623!important;font-weight:700;font-size:13px;box-shadow:0 5px 16px #70362315}.conversion-hero .btn:hover{background:#54291b!important;border-color:#54291b!important}.conversion-hero .herovisual{border-color:#b88c70;background:#ddb291}.hero-assurance{color:#634b39}.hero-photo-link{color:#603c28;border-bottom-color:#94664a}.conversion-hero .hero-signature{background:#fffaf3f2;border-color:#ead1bd}
+@media(min-width:1101px){.conversion-hero .herotext h1{font-size:clamp(82px,7.3vw,106px);line-height:1.05}.conversion-hero .herotext{padding-right:28px}.conversion-hero .actions .btn{min-height:60px;padding:20px 26px}}
+@media(max-width:780px){.conversion-hero .herotext h1 em{font-style:normal}.conversion-hero .eyebrow{letter-spacing:1.2px}.conversion-hero .btn{font-size:13px}}
